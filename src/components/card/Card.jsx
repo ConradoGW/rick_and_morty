@@ -1,7 +1,16 @@
 export default function Card(props) {
    return (
-      <div>
-         <button onClick={props.onClose}>X</button>
+      <div style={{
+         backgroundColor: "darkolivegreen",
+         margin: "20px",
+         padding: "20px",
+         borderRadius: "15px"
+      }}>
+         <button style={{
+            backgroundColor: "darkgray",
+            borderRadius: "10px"
+         }}
+          onClick={props.onClose}>X</button>
          <h2>{props.name}</h2>
          <h2>Status: {props.status}</h2>
          <h2>Specie: {props.specie}</h2>
