@@ -6,7 +6,7 @@ export default function Cards({characters, onClose}) {
    <div style={{
       display: 'flex',
       flexWrap: 'wrap',
-      justifyContent: 'space-evenly'
+      justifyContent: 'space-evenly',
    }}>
 {
          characters.map((character) => (
